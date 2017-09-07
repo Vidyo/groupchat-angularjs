@@ -88,7 +88,7 @@ class VideoRendererController {
 
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://static.vidyo.io/4.1.11.4/javascript/VidyoClient/VidyoClient.js?onload=onVidyoClientLoaded&webrtc=' + webrtc + '&plugin=' + plugin;
+		script.src = 'https://static.vidyo.io/latest/javascript/VidyoClient/VidyoClient.js?onload=onVidyoClientLoaded&webrtc=' + webrtc + '&plugin=' + plugin;
 		document.getElementsByTagName('head')[0].appendChild(script);
 	}
 
@@ -101,7 +101,7 @@ class VideoRendererController {
     console.log('passed in user name',this.$rootScope.user.name);
     console.log('passed in room id',this.$rootScope.user.roomId);
 
-    this.roomId = this.$rootScope.user.roomId || 'KPDemoRoom';
+    this.roomId = this.$rootScope.user.roomId || 'demoRoom';
     vidyoConnector.Connect({
       host: "prod.vidyo.io",
       token: this.$rootScope.user.token,
