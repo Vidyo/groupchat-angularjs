@@ -10,7 +10,7 @@ https://vidyo.io/how-to/using-angularjs-webrtc-build-group-video-chat-app-vidyo-
 
 # Clone Repository
 
-git clone https://github.com/sachinVidyo/vidyoGroupChat
+git clone https://github.com/sachinVidyo/vidyo.io-groupchat-angularjs.git
 
 # To install:
 
